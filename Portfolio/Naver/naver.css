@@ -1,0 +1,538 @@
+div,
+input,
+textarea {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 2% 0;
+}
+
+i:hover {
+	cursor: pointer;
+}
+
+a:hover {
+	color: dimgrey;
+	
+}
+
+html {
+	line-height: 1.15;
+}
+
+.naver-header-icon {
+	display: flex;
+}
+
+.naver-wrap {
+	width: 100%;
+}
+
+.naver-header {
+	width: 70%;
+	margin: 50px auto 20px auto;
+}
+
+.search-bar {
+	width: 600px;
+	height: 42px;
+	margin: auto;
+	border: 1.5px solid green;
+	border-radius: 20px;
+	position: relative;
+}
+.search-bar input {
+	width: 85%;
+	height: 30px;
+	margin-top: 4.3px;
+	margin-left: 60px;
+	border: none;
+}
+.search-bar input:focus {
+	outline: none;
+}
+.search-bar img {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	bottom: 6px;
+	left: 20px;
+	cursor: pointer;
+}
+.search-bar button {
+	width: 33px;
+	height: 33px;
+	position: absolute;
+	bottom: 31px;
+	top: 2px;
+	left: 90%;
+	border: none;
+	background: white;
+
+}
+
+.naver-app {
+	width: 480px;
+	margin: 9px auto;
+}
+.naver-app .fas {
+	margin: 7px;
+	color: limegreen;
+	font-size: 30px;
+	text-align: center;
+}
+.naver-app p {
+	margin: 10px auto;
+	color: black;
+	font-size: 13px;
+	text-align: center;
+}
+
+.naver-main {
+	width: 1000px;
+	margin: auto;
+	display: flex;
+}
+
+.naver-main-left {
+	width: 55%;
+	height: 1110px;
+	margin-left: 4%;
+}
+
+.naver-main-box {
+	width: 97%;
+	margin: 10px auto;
+	border: 1px solid lightgrey;
+	border-radius: 7px;
+}
+
+.add {
+	height: 145px;
+	background: url(img/naver_add.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+}
+
+.naver-main-right {
+	width: 35%;
+	height: 1000px;
+	margin-left: 1%;
+	margin-right: 4%;
+}
+
+.news {
+	width: 97%;
+	margin: 10px auto;
+	padding: 5px;
+}
+
+.login {
+	height: 155px;
+	padding: 10px;
+	text-align: center;
+	font-size: 13.5px;
+}
+.login a {
+	text-decoration: none;
+	color: slategray;
+}
+.login a:hover{
+	text-decoration: underline;
+}
+.login button {
+	width: 90%;
+	height: 50px;
+	border: none;
+	background-color: limegreen;
+	margin-bottom: 10px;
+	border-radius: 7px;
+	color: white;
+	font-size: 16px;
+	font-weight: 900;
+}
+.login button:hover{
+	background-color: forestgreen;
+}
+
+.right-add {
+	width: 97%;
+	height: 210px;
+	background-color: firebrick;
+	margin: 10px auto;
+}
+
+.weather {
+	height: 220px;
+}
+
+.stock {
+	height: 185px;
+	padding: 3px;
+}
+
+.news-table img {
+	transition: all 0.3s linear;
+	overflow: hidden;
+}
+.news-table img:hover {
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+
+.news-head {
+	display: flex;
+}
+.news-head h6:hover {
+	cursor: pointer;
+}
+.news-head h6 {
+	font-size: 13.5px;
+	padding: 6px;
+	color: darkslategrey;
+}
+
+.news-headline {
+	background-color: lightgray;
+	width: 100%;
+	height: 30px;
+	border-radius: 2px;
+	padding: 4px 10px;
+	font-size: 13px;
+}
+.news-headline p:hover {
+	cursor: pointer;
+}
+
+.news-table p {
+	font-size: 14px;
+
+}
+.news-table p:hover {
+	font-size: 14px;
+	cursor: pointer;
+	text-decoration: underline;
+}
+.news-table img {
+	width: 145px;
+	height: 96px;
+	margin: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.weather-head {
+	width: 95%;
+	height: 35px;
+	display: flex;
+	font-size: 14px;
+	text-align: center;
+	margin: 15px auto;
+	padding-left: 12px;
+	border-bottom: 1px solid lightgrey;
+}
+.weather-head button {
+	width: 70px;
+	background-color: white;
+	font-size: 12px;
+	border-radius: 5px;
+	border: 1px solid lightgrey;
+}
+
+.top-box {
+	width: 850px;
+	margin: auto;
+	display: flex;
+}
+
+.papago {
+	height: 200px;
+}
+
+.webtoon {
+	height: 570px;
+}
+.webtoon-top {
+	display: flex;
+	width: 95%;
+	height: 20px;
+	margin: 0 auto;
+	padding: 5px;
+	font-size: 11px;
+}
+.webtoon-top p:nth-child(3):hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.img-wrap {
+	width: 100%;
+	height: auto;
+	margin: 0px auto;
+	overflow: hidden;
+	background: white;
+	border-radius: 8px;
+}
+
+.webtoon-box {
+	position: relative;
+	overflow: hidden;
+}
+.webtoon-box img {
+	width: 84px;
+	height: 106px;
+	padding: 8px;
+	border-radius: 12px;
+	transition: all 0.15s linear;
+}
+.webtoon-box:hover img {
+	transition-duration: 0.1s;
+	padding: 10px;
+	cursor: pointer;
+	transform: scale(1.1);
+	border-radius: 15px;
+}
+.webtoon-box p {
+	font-size: 5px;
+	text-align: left;
+	padding-left: 4px;
+	margin: 0 0 5px 2px;
+	color: slategray;
+}
+.webtoon-box strong:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+
+.webtoon-list {
+	display: flex;
+	flex-wrap: wrap;
+	width: 95%;
+	height: 330px;
+	margin: 10px auto;
+}
+.webtoon-list:nth-child(4) {
+	height: 138px;
+}
+.webtoon-list:nth-child(2) {
+	border-bottom: 1px solid lightgrey;
+}
+
+.stock-head {
+	width: 95%;
+	height: 30px;
+	display: flex;
+	font-size: 12px;
+	text-align: center;
+	margin: 10px auto;
+	padding-left: 5px;
+	border-bottom: 1px solid lightgrey;
+}
+
+.stock-main {
+	display: flex;
+}
+
+.stock-child {
+	font-size: 13px;
+	margin-left: 20px;
+}
+.stock-child td {
+	border-bottom: 1px solid lightgrey;
+	padding: 5px;
+	margin-left: 12px;
+}
+
+.stock-alpha:hover p{
+	text-decoration: underline
+}
+.stock-alpha {
+	cursor: pointer;
+}
+.stock-alpha td{
+	border: 0px
+}
+
+.wiget {
+	height: 440px;
+	background-color: whitesmoke;
+}
+
+.wiget-board {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	padding: 5px;
+	flex-wrap: wrap;
+}
+
+.wiget-box {
+	width: 140px;
+	height: 155px;
+	background: white;
+	margin: 6px;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	position: relative;
+}
+
+.wiget-calendar {
+	padding: 11px;
+}
+.wiget-calendar  h6{
+	font-size: 13.5px;
+}
+.wiget-calendar p{
+	font-size: 25px;
+	font-weight: 600;
+}
+.wiget-calendar span{
+	font-size: 12px;
+	font-weight: 400
+}
+
+.willLogin{
+	padding: 0;
+	color: dimgrey;
+	font-size: 12px;
+	position: absolute;
+	bottom: 10px;
+	left: 12px;
+}
+
+.wiget-memo-box {
+	height: 25%;
+	border: 1px solid whitesmoke;
+	border-radius: 5px; 
+}
+.wiget-memo-box:nth-child(1) {
+	border: 1px solid rgb(4,190,116);
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	background-color: rgb(4,190,116);
+	color: white;
+	padding: 8.5px 12px;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.wiget-papago {
+	padding: 6px;
+	font-size: 17px;
+	font-weight: 900;
+}
+.wiget-papago img{
+	width: 92px;
+	margin-left: 19px;
+	position: absolute;
+	bottom: 53px;
+}
+.wiget-papago button{
+	width: 99px;
+	height: 31px;
+	margin-left: 12px;
+	border: 0;
+	border-radius: 15px;
+	background-color: deepskyblue;
+	color: white;
+	font-size: 11px;
+	font-weight: 600;
+	position: absolute;
+	bottom: 15px;
+}
+
+.wiget-dict {
+	background: url(../img/sketch.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 9px;
+	font-size: 14px;
+	font-weight: 800;
+}
+.wiget-dict button {
+	border: 1px solid gray;
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+	background-color: white;
+	margin-left: 90px;
+}
+
+.naver-footer {
+	background-color: whitesmoke;
+/*	background-color: lightgray;*/
+}
+
+.footer-wrap {
+	width: 1000px;
+	height: 200px;
+	margin: auto;
+	padding: 15px;
+	font-size: 9.5px;
+}
+
+.footer-top {
+	display: flex;
+	font-weight: 800;
+	border-bottom: 1px solid lightgrey;
+}
+.footer-top p:nth-child(3):hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.footer-mid td{
+	padding: 4px;
+}
+.footer-mid td:nth-child(odd){
+	font-weight: 800;
+}
+.footer-mid span:nth-child(odd):hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.footer-mid span{
+	margin: 1.5px;
+}
+.footer-mid {
+	display: flex;
+	padding: 15px 0;
+	border-bottom: 1px solid lightgrey;
+}
+.footer-mid img{
+	margin-top: 8px;
+	width: 60px;
+	height: 60px;
+}
+
+.footer-mid-right {
+	margin: 20px 5px ;
+}
+.footer-mid-right a{
+	color: black;
+	text-decoration: none;
+}
+.footer-mid-right a:hover{
+	text-decoration: underline;
+}
+.footer-mid-right p{
+	margin: 1px;
+}
+
+.footer-bottom {
+	text-align: center;
+	padding: 25px;
+}
+.footer-bottom span{
+	margin-top: 20px;
+	padding: 4px;
+}
+.footer-bottom span:nth-child(odd):hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
